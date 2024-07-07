@@ -1,12 +1,12 @@
 import os
 
 
-def list_files(startpath):
+def list_files(start_path):
     files_counts = 0
-    for root, dirs, files in os.walk(startpath):
-        level = root.replace(startpath, '').count(os.sep)
+    for root, dirs, files in os.walk(start_path):
+        level = root.replace(start_path, '').count(os.sep)
         # 在py中，缩进真乃善用之物
-        indent = ' ' * 4 * (level)
+        indent = ' ' * 4 * level
         print('{}{}/'.format(indent, os.path.basename(root)))
         subindent = ' ' * 4 * (level + 1)
         for f in files:
