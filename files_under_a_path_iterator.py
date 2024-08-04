@@ -16,6 +16,7 @@ def list_files(start_path):
 
 
 startpath = 'S:\Gallery\【二次元】Anime World／二次元世界／アニメの世界'
+# startpath = 'S:\Gallery\【二次元】Anime World／二次元世界／アニメの世界\#Genshin Impact／#原神／#原神（げんしん）／#원신\#Fontaine／#枫丹／#フォンテーヌ\#Furina／#Focalors／#芙宁娜／#芙卡洛斯／#フリーナ／#フォカロルス'
 list_files(startpath)
 
 if __name__ == '__main__':
