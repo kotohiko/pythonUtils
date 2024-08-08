@@ -10,7 +10,7 @@ def print_subdirectories(directory):
 
 
 # 指定要搜索的目录
-directory = 'S:\Gallery\【二次元】Anime World／二次元世界／アニメの世界'
+directory = 'S:\Gallery'
 
 # 调用函数
 print_subdirectories(directory)
